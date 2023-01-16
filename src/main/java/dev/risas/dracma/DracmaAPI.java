@@ -52,4 +52,16 @@ public class DracmaAPI {
     public void removeCoins(UUID uuid, int coins) {
         throw new IllegalPluginAccessException("API is not registered");
     }
+
+    public boolean isGlobalDiscount() {
+        throw new IllegalPluginAccessException("API is not registered");
+    }
+
+    public void setGlobalDiscount(int globalDiscount) {
+        throw new IllegalPluginAccessException("API is not registered");
+    }
+
+    public int getGlobalDiscount() {
+        throw new IllegalPluginAccessException("API is not registered");
+    }
 }
