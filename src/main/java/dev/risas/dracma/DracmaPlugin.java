@@ -26,8 +26,4 @@ public class DracmaPlugin extends JavaPlugin {
     public void onReload() {
         throw new IllegalPluginAccessException("API is not registered");
     }
-
-    public static DracmaPlugin getPlugin() {
-        throw new IllegalPluginAccessException("API is not registered");
-    }
 }

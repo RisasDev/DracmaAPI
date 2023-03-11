@@ -21,35 +21,35 @@ public class DracmaAPI {
         throw new IllegalPluginAccessException("API is not registered");
     }
 
-    public int getCoins(String name) {
+    public int getCurrency(String userName, String currency) {
         throw new IllegalPluginAccessException("API is not registered");
     }
 
-    public int getCoins(UUID uuid) {
+    public int getCurrency(UUID uuid, String currency) {
         throw new IllegalPluginAccessException("API is not registered");
     }
 
-    public void setCoins(String name, int coins) {
+    public void setCurrency(String userName, String currencyName, int currencyAmount) {
         throw new IllegalPluginAccessException("API is not registered");
     }
 
-    public void setCoins(UUID uuid, int coins) {
+    public void setCurrency(UUID uuid, String currencyName, int currencyAmount) {
         throw new IllegalPluginAccessException("API is not registered");
     }
 
-    public void addCoins(String name, int coins) {
+    public void addCurrency(String name, String currencyName, int currencyAmount) {
         throw new IllegalPluginAccessException("API is not registered");
     }
 
-    public void addCoins(UUID uuid, int coins) {
+    public void addCurrency(UUID uuid, String currencyName, int currencyAmount) {
         throw new IllegalPluginAccessException("API is not registered");
     }
 
-    public void removeCoins(String name, int coins) {
+    public void removeCurrency(String name, String currencyName, int currencyAmount) {
         throw new IllegalPluginAccessException("API is not registered");
     }
 
-    public void removeCoins(UUID uuid, int coins) {
+    public void removeCurrency(UUID uuid, String currencyName, int currencyAmount) {
         throw new IllegalPluginAccessException("API is not registered");
     }
 

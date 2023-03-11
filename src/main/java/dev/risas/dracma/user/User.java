@@ -7,10 +7,6 @@ import java.util.UUID;
 
 public class User {
 
-    private UUID uuid;
-    private String name;
-    private int coins;
-
     public User(UUID uuid, String name) {
         throw new IllegalPluginAccessException("API is not registered");
     }
@@ -19,15 +15,19 @@ public class User {
         throw new IllegalPluginAccessException("API is not registered");
     }
 
-    public void setCoins(int coins) {
+    public int getCurrency(String currency) {
         throw new IllegalPluginAccessException("API is not registered");
     }
 
-    public void addCoins(int coins) {
+    public void setCurrency(String currency, int amount) {
         throw new IllegalPluginAccessException("API is not registered");
     }
 
-    public void removeCoins(int coins) {
+    public void addCurrency(String currency, int amount) {
+        throw new IllegalPluginAccessException("API is not registered");
+    }
+
+    public void removeCurrency(String currency, int amount) {
         throw new IllegalPluginAccessException("API is not registered");
     }
 
