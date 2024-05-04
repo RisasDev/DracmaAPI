@@ -1,5 +1,7 @@
 package dev.risas.dracma.user;
 
+import org.bukkit.OfflinePlayer;
+
 /**
  * Created by Risas
  * Project: Dracma
@@ -10,10 +12,8 @@ package dev.risas.dracma.user;
 
 public interface IUser {
 
-    User getUser(String name);
+    User getUser(OfflinePlayer offlinePlayer, boolean load);
     void saveUser(User user);
-    void loadUser(User user, boolean byName);
-    boolean isConnected();
-    void disconnect();
+    void loadUser(User user);
     void reset();
 }

@@ -1,6 +1,5 @@
 package dev.risas.dracma;
 
-import dev.risas.dracma.user.UserManager;
 import org.bukkit.plugin.IllegalPluginAccessException;
 
 import java.util.UUID;
@@ -14,8 +13,6 @@ import java.util.UUID;
  */
 
 public class DracmaAPI {
-
-    private final UserManager userManager;
 
     public DracmaAPI() {
         throw new IllegalPluginAccessException("API is not registered");
